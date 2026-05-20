@@ -18,8 +18,9 @@
 - `.claude/skills/` — Skill 정의. 각 폴더는 `SKILL.md` 하나로 시작합니다.
 - `.claude/agents/` — Sub-agent 정의 (`.md` 파일).
 - `.claude/settings.json` — Hook 등 프로젝트 단위 설정.
-- `demos/01_skill` ~ `demos/05_mcp` — 각 기능별 시연 폴더. 각 폴더의 `README.md`가 그 데모의 사용 설명서입니다.
-- `scripts/` — 환경 셋업이나 데모 보조 스크립트.
+- `demos/claude/01_skill` ~ `demos/claude/04_agent_team` — Claude Code 기능별 시연 폴더. 각 폴더의 `README.md`가 그 데모의 사용 설명서입니다.
+- `demos/gitignore/` — Git 기본기인 `.gitignore` 데모. Claude Code 기능 흐름과는 별개의 트랙입니다.
+- `scripts/` — 환경 셋업이나 데모 보조 스크립트 (Hook 데모가 호출하는 스크립트 등).
 
 ## 작업할 때 주의
 
@@ -32,4 +33,6 @@
 
 발표자는 일반적으로 다음 순서를 따릅니다 — 데모를 추가/수정할 때 이 흐름을 깨지 않도록 해 주세요:
 
-`CLAUDE.md` 설명 → Skill → Sub-agent → Hook → Agent Team → (시간 남으면) MCP
+`CLAUDE.md` 설명 → Skill → Sub-agent → Hook → Agent Team
+
+> MCP는 외부 서비스 연결이 필요해 별도 실습 데모를 두지 않습니다. 출시 타임라인 표에서 개념만 짚고 넘어갑니다.

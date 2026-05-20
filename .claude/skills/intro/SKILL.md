@@ -28,14 +28,13 @@ description: 이 교육 레포의 구조와 시연 순서를 청중에게 안내
 ### 3. "어디부터 봐야 하나요?"
 시연 흐름 순서를 마크다운 링크로 안내하세요. 출시 순서가 아닌 **시연 순서**라는 점을 한 줄 곁들이세요:
 
-1. [demos/01_skill](demos/01_skill/README.md) — 가장 가벼운 확장: 같은 컨텍스트 안에서 즉시 실행
-2. [demos/02_subagent](demos/02_subagent/README.md) — 격리된 컨텍스트, 결과만 반환
-3. [demos/03_hook](demos/03_hook/README.md) — AI 판단 없이 결정론적으로 끼어드는 스크립트
-4. [demos/04_agent_team](demos/04_agent_team/README.md) — 양방향 협력하는 멀티 세션
-5. [demos/05_mcp](demos/05_mcp/README.md) — 외부 서비스 연결
+1. [demos/claude/01_skill](demos/claude/01_skill/README.md) — 가장 가벼운 확장: 같은 컨텍스트 안에서 즉시 실행
+2. [demos/claude/02_subagent](demos/claude/02_subagent/README.md) — 격리된 컨텍스트, 결과만 반환
+3. [demos/claude/03_hook](demos/claude/03_hook/README.md) — AI 판단 없이 결정론적으로 끼어드는 스크립트
+4. [demos/claude/04_agent_team](demos/claude/04_agent_team/README.md) — 양방향 협력하는 멀티 세션
 
 ### 4. 다음 액션 한 줄
-"바로 첫 데모를 보고 싶으면 `demos/01_skill/README.md`를 열어보세요" 정도로 마무리.
+"바로 첫 데모를 보고 싶으면 `demos/claude/01_skill/README.md`를 열어보세요" 정도로 마무리.
 
 ## 톤
 
